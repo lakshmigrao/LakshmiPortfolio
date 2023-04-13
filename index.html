@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script> 
+    <script src="https://kit.fontawesome.com/56a0271741.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <!-- <img src="images/logoLak.png" class="logo"> -->
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-sharp fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Javascript / React Developer</p>
+                <h1>Hi, I'm 
+                    <!-- <div class="type-container"> -->
+                        <!-- <div class="typed-out"> -->
+                             <span>Lakshmi </span> 
+                             <!-- <h1>
+                                <a class="typewrite" data-period="2000" data-type='[ "A Javascript ", "& React Developer","With an extensive training in MERN Stack.", "I Love to Develop." ]'>
+                                  <span class="wrap"></span>
+                                </a>
+                              </h1> -->
+                        <!-- </div> -->
+                    <!-- </div> -->
+               
+                <br>from New York</h1>
+            </div>
+        </div>
+    </div>
+    <!-- about -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <!-- <img src="images/background-lakshmi.png" alt=""> -->
+                    <h4 class="sub-title">About me</h4>
+                    <p>I am a recent graduate of Per Scholas where I received extensive training in HTML, CSS, Javascript,React and MERN stack and have earned the Software Engineering certification. I am a motivated individual with a bachelor of technology in Computer Science with an initial experience in IT. I am very passionate about coding and have taken up a few online certification courses to learn and improve my technical skillls.  I enjoy solving problems, troubleshooting issues, and coming up with solutions in a timely manner. Im efficient and highly organized and this enables me to be as productive as possible on the job.</p>
+                </div>
+                <div class="about-col-2">
+                    <!-- <h1 class="sub-title">About me</h1>
+                    <p>As a recent graduate of Per Scholas, where I earned my Software Engineering certification, I have received extensive training in Python, HTML, CSS, Javascript, and React. Along with my Bachelor of Technology in Computer Science, I have initial experience in IT. My passion for coding is evident from the numerous online certification courses I have completed to improve my technical skills.
+
+                        As a motivated individual, I thrive on solving problems and troubleshooting issues. My ability to come up with effective solutions in a timely manner has earned me a reputation for being efficient and highly organized. These skills translate into my work, allowing me to be as productive as possible on the job.
+                        
+                        I look forward to applying my knowledge and skills in a software engineering role where I can continue to grow and contribute to a dynamic team. </p> -->
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Javascript</span><br>Designing Web applications using Javascript/HTML/CSS</li>
+                            <li><span>Front-end Development</span><br>Creating web applications using React/Node.js</li>
+                            <li><span>Back-end Development</span><br>Maintaining backend using Express and MongoDB</li>
+                            <li><span>Previous coding experience in </span><br>Python, SQL</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Decemeber 2022 - April 2023</span><br>Attended PerScholas Software Engineering Bootcamp(15weeks)<br>Extensive training in Javascript/HTML/CSS and MERN stack (MongoDB, Express,React and Node.js)</li>
+                            <li><span>Aug 2011 - September 2012</span><br>R&D Engineer<br>Nokia Siemens Networks, Bangalore, India</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>April 2023</span><br>PerScholas Software Engineering Graduate</li>
+                            <li><span>April 2010</span><br>Bachelors in Technology, Computer Science and Engineering</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- about -->
+    <!-- Services -->
+<!-- <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non possimus doloremque laborum placeat cum laudantium beatae necessitatibus explicabo molestias. Nisi fuga unde in aut, repudiandae officiis dolorum quaerat consequatur omnis.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-sharp fa-solid fa-crop"></i>
+                                <h2>UI/UX Design</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non possimus doloremque laborum placeat cum laudantium beatae necessitatibus explicabo molestias. Nisi fuga unde in aut, repudiandae officiis dolorum quaerat consequatur omnis.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>App Design</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non possimus doloremque laborum placeat cum laudantium beatae necessitatibus explicabo molestias. Nisi fuga unde in aut, repudiandae officiis dolorum quaerat consequatur omnis.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+
+</div> -->
+<!-- portfolio -->
+<div id="projects">
+    <div class="container">
+        <h4 class="sub-title">My Projects</h4>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/TikTakToe.png">
+                <div class="layer">
+                    <h3 style="text-decoration: underline;">Tik Tak Toe</h3>
+                    <p>Tic Tac Toe is an engaging and interactive project that involves HTML, CSS, and Javascript. This project offers players two exciting game modes to choose from: the first one allows players to play against the computer, while the second one allows two players to play against each other. With its user-friendly interface and challenging gameplay, Tic Tac Toe is a great way to improve your problem-solving skills while having fun.</p>
+                    <a href="https://lakshmigrao.github.io/MainProject/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/BookStore.png" >
+                <div class="layer">
+                    <h3 style="text-decoration: underline;">Book Store Project</h3>
+                    <p>The Book Store is a comprehensive web application that is built using various front-end technologies such as HTML, CSS, JavaScript, and REACT. It offers an easy-to-use interface that enables users to search for books based on their title, author's name, or even a word from the book's description. With its intuitive search functionality, users can quickly find the book they are looking for and then add it to their MyBooks list with just a single click. Additionally, users can access detailed information about each book by clicking on it from the search results page. The Book Store provides an efficient and user-friendly way for book enthusiasts to browse and manage their favorite books. </p>
+                    <a href="https://magnificent-starlight-40156a.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/RecipeApp.png" >
+                <div class="layer">
+                    <h3 style="text-decoration: underline;">Recipe App using MERN stack</h3>
+                    <p>Recipe App is a MERN-based web app with a user-friendly HomePage for recipe search. MERN stands for MongoDB, Express, React and Node.js. Users can create accounts to save favorites, which they can easily edit, remove or add to the list. The app uses an external API to fetch diverse recipe options, and some functionality is restricted to logged-in users for added security.</p>
+                    <a href="https://recipeapp-client.onrender.com/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/lakshmigrao/per-scholas" class="btn">See more</a>
+    </div>
+</div>
+    
+<!-- contact -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h4 class="sub-title">Contact Me</h4>
+                <p><i class="fa-solid fa-paper-plane"></i>lakshmigrao@gmail.com</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/lakshmigrao/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/lakshmigrao"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="images/Lakshmi Gopinatha Rao.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright &copy; 2023 Lakshmi's Website</p>
+    </div>
+</div>
+
+     <!-- <script>
+    let tablinks = document.getElementsByClassName("tab-links");
+    let tabcontents = document.getElementsByClassName("tab-contents");
+   function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link")
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab")
+    }
+    event.currentTarget.classList.add("active-link")
+    document.getElementById(tabname).classList.add("active-tab")
+   }
+    </script>
+    <script>
+        let sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>  -->
+</body>
+
+</html>
